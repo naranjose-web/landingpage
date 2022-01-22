@@ -1,0 +1,183 @@
+body{
+  background-color:#EEEEEE;
+  margin: 0px;
+  padding: 0px;
+}
+.main{
+  
+  height:auto;
+  width: 100%;
+  
+  
+}
+nav{
+  width: 100%;
+  padding:40px 0px 40px 0px;
+}
+nav ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-align:center; 
+}
+nav ul li{
+  display:inline;
+  margin: 10px;
+  padding: 10px;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.logo{
+    width: 75%;
+    height: 100vh;
+   margin: auto;
+  display:flex;
+  background-color:#546E7A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#name{
+  background: rgba(0, 0, 0, 0.3);
+  margin: 30px;
+  position: absolute;
+  
+  
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+ align-items: center; 
+  
+}
+#title{
+ 
+  font-size:5.5em;
+  color: #f7fcff;
+  margin-bottom:0px;
+  margin-left:30px;
+  margin-right:30px;
+  margin-top: 20px;
+}
+
+#name spam{
+  font-size:4vw;
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 20px;
+    color: lightgrey;
+}
+#us{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  text-align:center;
+}
+#description {
+  margin-top:20px;
+  margin: auto;
+  width: 70%;
+  height: auto;
+  border-left: 5px solid black;
+  
+}
+#description p{
+ font-family: Garamond, serif;
+  font-size: 24px; 
+  margin: 40px;
+  text-align:justify;
+  padding: 10px;
+}
+#description p strong{
+  font-size:35px;
+}
+#contact{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  margin: 20px;
+  text-align:center;
+}
+
+#redes{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+#redes .social{
+  width: 100px;
+  height: auto;
+  margin: 20px;
+}
+#redes .social img{
+  width: 100%;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+#foolist li svg{
+  
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.foo{
+  margin: 20px;
+  padding: 20px;
+  border-left:5px solid black;
+  font-size: x-large;
+}
+#foolist li{
+  list-style-type: none;
+  margin:10px;
+  
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ 
+  body{
+    border-bottom: 5px solid black;
+  }
+  nav{
+    display: none;
+  }
+  .logo{
+    height: 50vh;
+    align-items: flex-end;
+  }
+  .logo img{
+        height: 50vh;
+  }
+  
+  #title{
+    color: #f7fcff;
+  }
+  #name spam {
+    color: lightgrey;
+}
+  footer {
+    
+    flex-direction: column;
+  }
+}
+
+
